@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;1,600&display=swap');
+body{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  
+}
+.pricing-plan{
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    overflow: hidden;
+    font-family:'lato', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #555555;
+    margin: 15px;
+    float: left;
+    background-color: white;
+   
+    
+}
+.pricing-plan-header{
+    padding: 25px;
+    color: black;
+}
+.pricing-plan-title,
+.pricing-plan-summary{
+    margin: 0;
+    text-align: center;
+
+}
+.pricing-plan-title{
+    font-size: 13px;
+    font-weight: 500;
+}
+.pricing-plan-summary{
+   
+    font-size: 2em;
+    font-weight: 800;
+}
+.pricing-plan-description{
+    border-top: 1px solid #eeeeee;
+    padding: 25px;
+}
+.pricing-plan-list{
+    padding: 0;
+    margin: 0;
+
+}
+.pricing-plan-feature{
+    list-style: none;
+    margin: 7px;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+}
+.pricing-plan-feature::before{
+    margin-bottom: 0.5em;
+}
+.pricing-plan-feature::before{
+    content: "\2714";
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+}
+.pricing-plan-action{
+    padding: 25px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.pricing-plan-button{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+    background: rgb(102, 189, 224);
+    border-radius: 5px;
+    border: 1px solid rgb(89, 199, 243);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+.pricing-plan-button:hover{
+    background: #009578;
+    color: #ffffff;
+}
+.pricing-plan-cost{
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+}
+.pricing-plan-text{
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+
+    
+}
